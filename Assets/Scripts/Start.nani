@@ -1,2 +1,11 @@
 @back Tavern
+@sfx Traktir volume:0.01
+Skofild.Default: Hey there! What`s your name?
+
+@input name summary:"Enter Your Name."
+
+@stop
+{name}: You can call me {name}
+Skofild.Default: (Speaking in a hushed tone) OK {name}, these guards are starting to eye us suspiciously. We should make ourselves scarce before they become too curious.
+
 @stop

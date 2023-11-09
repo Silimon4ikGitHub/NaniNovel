@@ -176,3 +176,23 @@ MonoBehaviour:
     - name: Start
       pathPrefix: Scripts
       guid: 70249f6e2ba941b4e907a80b148bac16
+  - Id: Characters/8cc6249b-756a-4784-ab32-4149acf1b27c
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Skofild
+      guid: a0fdb41ac256cf545ac54145559e302a
+  - Id: Characters/50f06a79-d972-455d-8fb9-63f53fa62c25
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Traider
+      guid: cd921f53f6650e24cabb14abd8566a36
+  - Id: Characters/0b5e63ee-e7a6-47de-8c8e-1fe576a75b2a
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Keyra
+      guid: 56537e8dd356c6c4ebc532e55c5e6c84
+  - Id: Audio
+    Resources:
+    - name: Traktir
+      pathPrefix: Audio
+      guid: 71a9d106712da2b4ab7db0156900eb0a

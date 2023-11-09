@@ -1,0 +1,25 @@
+
+@back Traider
+@char Traid.Default
+
+Traid.Default: Greetings, kind sir! How might I be of service to you on this fine day?
+{myName}: Good day to you, good trader! I am in need of a sturdy rope for a task.
+Traid: A rope, you say? It so happens that among my array of wares, there lies a sturdy coil of rope. However, it isn't for sale, but I'll make you an offer.
+{myName}: An offer? I'm intrigued. What might it be?
+Traid: If you can seek out the hidden rope amongst my goods, you're welcome to have it without any cost. Consider it a bit of fun, and a challenge, if you will.
+{myName}: A hidden rope, you say?
+
+@choice " I accept your challenge." goto:.SearchRope
+@choice "No. I won't play your games." goto:.NotSearchRoll
+@stop
+
+# SearchRope
+{myName}:
+@showUI RopeUI
+@stop
+
+# RopeTaken
+Traid: OK!
+
+@stop
+@stop

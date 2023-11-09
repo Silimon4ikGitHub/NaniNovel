@@ -166,16 +166,31 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: MapUI
+      pathPrefix: UI
+      guid: 022bfc67a503573438da1ee0f246a0d9
+    - name: RopeUI
+      pathPrefix: UI
+      guid: 70de7f1a70a39194bbda37a480012447
   - Id: Backgrounds/3f643e33-642f-40e5-97a4-5d8381b76c32
     Resources:
     - name: Tavern
       pathPrefix: Backgrounds/MainBackground
       guid: 7cd5a894de0ca9d4d94ccd16ffbebadf
+    - name: Traider
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0cc4232e9eda89b4a8861f3f68ec2699
   - Id: Scripts
     Resources:
     - name: Start
       pathPrefix: Scripts
       guid: 70249f6e2ba941b4e907a80b148bac16
+    - name: Map
+      pathPrefix: Scripts
+      guid: 4e7084e07e9b0e845a9f84088793852e
+    - name: Traider
+      pathPrefix: Scripts
+      guid: 3fac7829904b87a4fbeb6b759af20550
   - Id: Characters/8cc6249b-756a-4784-ab32-4149acf1b27c
     Resources:
     - name: Default
@@ -206,3 +221,13 @@ MonoBehaviour:
     - name: Default
       pathPrefix: Characters/Guard2
       guid: a55a9b80588c2d649be6af558d208c14
+  - Id: Characters/2967f2d4-8a3a-47b0-a98e-2260e49b7f39
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Traid
+      guid: cd921f53f6650e24cabb14abd8566a36
+  - Id: TextPrinters/b66b7c4b-15bd-4af8-bca2-5d893431860f
+    Resources:
+    - name: Tooltip
+      pathPrefix: TextPrinters
+      guid: 0d0e1ea3514ebdc4d8e1dd6d6926684f

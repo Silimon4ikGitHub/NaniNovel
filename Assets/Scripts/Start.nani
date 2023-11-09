@@ -7,5 +7,21 @@ Skofild.Default: Hey there! What`s your name?
 @stop
 {name}: You can call me {name}
 Skofild.Default: (Speaking in a hushed tone) OK {name}, these guards are starting to eye us suspiciously. We should make ourselves scarce before they become too curious.
+@hide Skofild
+@char Guard1.Default pos:20
+Guard1: ...
+@char Guard2.Default
+Guard2: .......
+@hide Guard1
+@hide Guard2
+@char Skofild.Default pos:70
+{name}:  Aye, i think too. Their gaze tells me they'll soon be looking for more than a simple conversation. What's your scheme then?
+Skofild.Default: Ever noticed the back door, where the refuse is carried out?
+{name}: Yes, what of it?
+Skofild.Default: The sewer passage. We might slip away unnoticed through the filth and the grime. Guards are none too fond of such places.
+{name}: And how do you suggest we navigate the foul sewers?
+Skofild.Default: We'll need a stout rope to avoid being caught in the mire. Can you buy one from the market stall in the room opposit?
+{name}: Aye, I'll do it. But be quick and don't arouse their suspicions.
+
 
 @stop

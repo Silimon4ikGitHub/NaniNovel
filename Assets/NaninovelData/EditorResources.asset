@@ -196,3 +196,13 @@ MonoBehaviour:
     - name: Traktir
       pathPrefix: Audio
       guid: 71a9d106712da2b4ab7db0156900eb0a
+  - Id: Characters/c7236368-9a29-4822-b714-57c297755400
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Guard1
+      guid: 6216dac1bfe23a34ca39733d8a55ada4
+  - Id: Characters/33d00031-4ea5-47b9-8c01-2c6cb3612352
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Guard2
+      guid: a55a9b80588c2d649be6af558d208c14

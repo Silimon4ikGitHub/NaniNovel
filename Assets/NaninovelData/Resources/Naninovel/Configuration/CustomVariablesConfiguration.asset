@@ -15,5 +15,3 @@ MonoBehaviour:
   PredefinedVariables:
   - name: myName
     value: 0
-  - name: ropeIsTaken
-    value: false

@@ -1,7 +1,7 @@
 
 @back Traider
 @char Traid.Default
-
+@toast "Quest Update: Find a rope: buy a rope"
 Traid.Default: Greetings, kind sir! How might I be of service to you on this fine day?
 {myName}: Good day to you, good trader! I am in need of a sturdy rope for a task.
 Traid: A rope, you say? It so happens that among my array of wares, there lies a sturdy coil of rope. However, it isn't for sale, but I'll make you an offer.
@@ -14,11 +14,13 @@ Traid: If you can seek out the hidden rope amongst my goods, you're welcome to h
 @stop
 
 # SearchRope
-{myName}:
-@showUI RopeUI
+{myName}:...
+@hidePrinter  wait:false
+@showUI MiniGameUI
 @stop
 
 # RopeTaken
+@toast "Quest Update: Find a rope: Bring the rope to Skofild"
 Traid: OK!
 
 @stop

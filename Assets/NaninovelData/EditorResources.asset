@@ -172,6 +172,12 @@ MonoBehaviour:
     - name: RopeUI
       pathPrefix: UI
       guid: 70de7f1a70a39194bbda37a480012447
+    - name: QuestLog
+      pathPrefix: UI
+      guid: 01c5087028a6ce844a4d5fe16460fcc0
+    - name: MiniGameUI
+      pathPrefix: UI
+      guid: 1c42c20e94e135d4884a0b4a43b75e5d
   - Id: Backgrounds/3f643e33-642f-40e5-97a4-5d8381b76c32
     Resources:
     - name: Tavern

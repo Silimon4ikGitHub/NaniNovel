@@ -1,3 +1,4 @@
+
 @hideUI MapUI
 @back Tavern
 @sfx Traktir volume:0.01
@@ -23,5 +24,6 @@ Skofild.Default: The sewer passage. We might slip away unnoticed through the fil
 {myName}: And how do you suggest we navigate the foul sewers?
 Skofild.Default: We'll need a stout rope to avoid being caught in the mire. Can you buy one from the market stall in the room opposit?
 {myName}: Aye, I'll do it. But be quick and don't arouse their suspicions.
+@toast "New Quest: Find a rope"
 @hideAll
 @showUI MapUI

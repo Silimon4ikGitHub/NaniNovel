@@ -1,0 +1,100 @@
+; English <en> to English (United Kingdom) <en-GB> localization document for `Seawer` naninovel script
+
+# 1721f613
+; 	Skofild.Default: Ok, all is ready.
+
+# daa7a2f1
+; 	Skofild.Default: What da...
+
+# e4a616ef
+; 	Traid.Default: Hey!
+
+# 8276961b
+; 	Traid.Default: We have one little problem...
+
+# 6ceb7914
+; 	{myName}.Default: WHAT???
+
+# f8fe1af4
+; 	Traid.Default: It seems the guards have taken an interest.
+
+# d78cc210
+; 	Traid.Default: They know about your escape and want the rope back.
+
+# ea1b2f3c
+; 	Skofild.Default: (gruffly) Keep your eyes and ears shut about this, trader. I won't ask twice.
+
+# 1db55970
+; 	{myName}.Default: Skofild whait. 
+
+# d56bc9d5
+; 	Skofild.Default: And what do you suggest? give the rope to him and pretend nothing happened?
+
+# 786e02ad
+; 	@choice "Give rope to Skofild" goto:.RopeToSkofild
+
+# 6018eb37
+; 	@choice "Give rope to Traider" goto:.RopeToTraider
+
+# 83eea35e
+; 	@choice "Leave on your own" goto:.RopeOwn
+
+# b9f5cfa6
+; 	@toast "Quest Completed: Break"
+
+# 7017ca14
+; 	Skofild.Default: That's better
+
+# 474b96d8
+; 	Traid.Default: You are making a big mistake Skofild 
+
+# a2548084
+; 	Skofild.Default: Bye losers!
+
+# b9f5cfa6
+; 	@toast "Quest Completed: Break"
+
+# d18481f5
+; 	Skofild.Default: WHAT???
+
+# c8142466
+; 	Skofild.Default: You're crazy?
+
+# 3b4e9615
+; 	Traid.Default: It's a wise choice {myName}.
+
+# feca0dcc
+; 	{myName}: I hope.
+
+# 9a6b72
+; 	Skofild.Default: You'll regret it.
+
+# b9f5cfa6
+; 	@toast "Quest Completed: Break"
+
+# 3185b93a
+; 	{myName}: Look, I appreciate the help so far, but I've got my own ways of getting out. I can't risk getting caught up in your affairs. 
+
+# 6fa974bc
+; 	Skofild.Default: (gruffly) You think you can just waltz away, leaving us to face the guards alone?
+
+# 3c7bf8cb
+; 	{myName}: I didn't ask for your help. I've got a plan, and I don't need anyone slowing me down.
+
+# 56554f20
+; 	Traid.Default: Gentlemen, let's not turn on each other now.
+
+# 4d2d98bd
+; 	Skofild.Default: He's planning to abandon me, and you're preaching unity?
+
+# 73c66419
+; 	Traid.Default: Skofild, calm yourself. {myName}, think about the consequences.
+
+# af1f8a8d
+; 	{myName}: I didn't sign up for a rescue mission. I need to look out for myself.
+
+# fa3a51c5
+; 	Skofild.Default: (scowling) You're playing a dangerous game, friend. Abandon us, and you'll regret it.
+
+# a1f890af
+; 	{myName}: It's a risk I'm willing to take. Good luck to both of you.

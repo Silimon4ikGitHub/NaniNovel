@@ -1,0 +1,79 @@
+; English <en> to English (United Kingdom) <en-GB> localization document for `Bar` naninovel script
+
+# 26242ed
+; 	Skofild.Default: Hey there! What`s your name?
+
+# 5f1a246c
+; 	@input myName summary:"Enter Your Name."
+
+# 99b15592
+; 	{myName}: You can call me {myName}
+
+# 87e612cc
+; 	Skofild.Default: (Speaking in a hushed tone) OK {myName}, these guards are starting to eye us suspiciously. We should make ourselves scarce before they become too curious.
+
+# 9a116ca7
+; 	Guard1: ...
+
+# f39b5df9
+; 	Guard2: .......
+
+# b1cd171d
+; 	{myName}:  Aye, i think too. Their gaze tells me they'll soon be looking for more than a simple conversation. What's your scheme then?
+
+# a5329f90
+; 	Skofild.Default: Ever noticed the back door, where the refuse is carried out?
+
+# f2dc4175
+; 	{myName}: Yes, what of it?
+
+# 485a2aa7
+; 	Skofild.Default: The sewer passage. We might slip away unnoticed through the filth and the grime. Guards are none too fond of such places.
+
+# fc86f450
+; 	{myName}: And how do you suggest we navigate the foul sewers?
+
+# fd2786f0
+; 	Skofild.Default: We'll need a stout rope to avoid being caught in the mire. Can you buy one from the market stall in the room opposit?
+
+# f774eb94
+; 	{myName}: Aye, I'll do it. But be quick and don't arouse their suspicions.
+
+# fe62dcc
+; 	@toast "New Quest: Break"
+
+# bedbd0a
+; 	Skofild.Default: Nice! Lets Get out of here!
+
+# 7c86fdc9
+; 	@toast "Quest Update: Break: Go to seawer"
+
+# b7bc3fcf
+; 	Skofild.Default: What ar you doing we need a rope
+
+# 3ffdcd72
+; 	Skofild.Default: Starting to feel like everyone's abandoning ship.
+
+# c9d6fa0b
+; 	{myName}: I'm not abandoning anyone. I've got my own reasons for doing things my way.
+
+# 4130e429
+; 	Skofild.Default: AAAAAhhh, I've been in tight spots before. I know how to handle myself.
+
+# 3a7e83a6
+; 	Guard1.Default: What's going on here? You two, halt!
+
+# 181f62fa
+; 	Guard1.Default: Skofild, you're under arrest for thievery and conspiracy. Surrender peacefully, and this won't get messy.
+
+# 76b2c6c3
+; 	Skofild.Default: You've got the wrong man. I'm innocent of whatever you're accusing me of.
+
+# c928c15f
+; 	Guard2.Default: Save it for the magistrate. You're coming with us.
+
+# 2b5fc812
+; 	{myName}: (whispering to Skofild) We need a plan. Going quietly might not be our best option.
+
+# 9ee0db22
+; 	Skofild.Default: (whispering back) We'll play along for now. We don't want a brawl in these tight quarters.

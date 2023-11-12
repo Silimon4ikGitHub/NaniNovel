@@ -13,5 +13,23 @@ MonoBehaviour:
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
   PredefinedVariables:
+  - name: SkofildFirstMeet
+    value: true
+  - name: TraiderFirstMeet
+    value: true
   - name: myName
     value: 0
+  - name: MapAvalable
+    value: true
+  - name: TraiderAvalable
+    value: false
+  - name: BarAvalable
+    value: true
+  - name: SeawerAvalable
+    value: false
+  - name: WithRope
+    value: false
+  - name: RopeQuest
+    value: false
+  - name: SkofildLeave
+    value: false

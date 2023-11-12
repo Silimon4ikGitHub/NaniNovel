@@ -1,0 +1,66 @@
+
+@back Tavern
+
+@goto .SkofildFirstMeet if:"!WithRope && SkofildFirstMeet"
+@goto .ComeWOutRope if:"!WithRope && RopeQuest"
+@goto .ComeWithRope if:"WithRope && RopeQuest"
+@goto .EmptyLocation if:"!RopeQuest && SkofildLeave && !TraiderFirstMeet"
+@goto .BackWithSkofild if:"!RopeQuest && !SkofildLeave && !TraiderFirstMeet"
+
+# SkofildFirstMeet
+	Skofild.Default: Hey there! What`s your name?
+	@input myName summary:"Enter Your Name."
+	@stop
+	{myName}: You can call me {myName}
+	Skofild.Default: (Speaking in a hushed tone) OK {myName}, these guards are starting to eye us suspiciously. We should make ourselves scarce before they become too curious.
+	@hide Skofild
+	@char Guard1.Default pos:20
+	Guard1: ...
+	@char Guard2.Default
+	Guard2: .......
+	@hide Guard1
+	@hide Guard2
+	@char Skofild.Default pos:70
+	{myName}:  Aye, i think too. Their gaze tells me they'll soon be looking for more than a simple conversation. What's your scheme then?
+	Skofild.Default: Ever noticed the back door, where the refuse is carried out?
+	{myName}: Yes, what of it?
+	Skofild.Default: The sewer passage. We might slip away unnoticed through the filth and the grime. Guards are none too fond of such places.
+	{myName}: And how do you suggest we navigate the foul sewers?
+	Skofild.Default: We'll need a stout rope to avoid being caught in the mire. Can you buy one from the market stall in the room opposit?
+	{myName}: Aye, I'll do it. But be quick and don't arouse their suspicions.
+	@toast "New Quest: Break"
+	@set TraiderAvalable=true
+	@set RopeQuest=true
+	@set FirstMeet=false
+	@set SkofildFirstMeet=false
+	@goto Map
+
+# ComeWithRope
+	Skofild.Default: Nice! Lets Get out of here!
+	@set SeawerAvalable=true
+	@toast "Quest Update: Break: Go to seawer"
+	@goto Map
+# ComeWOutRope
+	Skofild.Default: What ar you doing we need a rope
+	@goto Map
+
+# BackWithSkofild
+	Skofild.Default: Starting to feel like everyone's abandoning ship.
+	{myName}: I'm not abandoning anyone. I've got my own reasons for doing things my way.
+	Skofild.Default: AAAAAhhh, I've been in tight spots before. I know how to handle myself.
+	Guard1.Default: What's going on here? You two, halt!
+	Guard1.Default: Skofild, you're under arrest for thievery and conspiracy. Surrender peacefully, and this won't get messy.
+	Skofild.Default: You've got the wrong man. I'm innocent of whatever you're accusing me of.
+	Guard2.Default: Save it for the magistrate. You're coming with us.
+	{myName}: (whispering to Skofild) We need a plan. Going quietly might not be our best option.
+	Skofild.Default: (whispering back) We'll play along for now. We don't want a brawl in these tight quarters.
+	@hideChars
+	@set SkofildLeave=true
+	@goto Map
+
+# EmptyLocation
+	@stop
+	@goto Map
+
+
+@stop

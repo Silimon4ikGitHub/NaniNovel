@@ -1,2 +1,3 @@
 
-@showUI Map
+@hideAll
+@showUI MapUI

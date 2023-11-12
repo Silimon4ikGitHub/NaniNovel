@@ -1,27 +1,54 @@
 
 @back Traider
-@char Traid.Default
-@toast "Quest Update: Find a rope: buy a rope"
-Traid.Default: Greetings, kind sir! How might I be of service to you on this fine day?
-{myName}: Good day to you, good trader! I am in need of a sturdy rope for a task.
-Traid: A rope, you say? It so happens that among my array of wares, there lies a sturdy coil of rope. However, it isn't for sale, but I'll make you an offer.
-{myName}: An offer? I'm intrigued. What might it be?
-Traid: If you can seek out the hidden rope amongst my goods, you're welcome to have it without any cost. Consider it a bit of fun, and a challenge, if you will.
-{myName}: A hidden rope, you say?
+@goto .FirstTraiderMeet if:"!WithRope && RopeQuest && TraiderFirstMeet"
+@goto .TraiderOut if:"WithRope && RopeQuest"
+@goto .TraiderOut if:"!WithRope && RopeQuest && !TraiderFirstMeet"
+@goto .TraiderHappy if:"!RopeQuest && !SkofildLeave && !TraiderFirstMeet"
+@goto .TraiderAngry if:"!RopeQuest && SkofildLeave && !TraiderFirstMeet"
+
+# FirstTraiderMeet
+	@char Traid.Default
+	@toast "Quest Update: Break: Find a rope: buy a rope"
+	Traid.Default: Greetings, kind sir! How might I be of service to you on this fine day?
+	{myName}: Good day to you, good trader! I am in need of a sturdy rope for a task.
+	Traid: A rope, you say? It so happens that among my array of wares, there lies a sturdy coil of rope. However, it isn't for sale, but I'll make you an offer.
+	{myName}: An offer? I'm intrigued. What might it be?
+	Traid: If you can seek out the hidden rope amongst my goods, you're welcome to have it without any cost. Consider it a bit of fun, and a challenge, if you will.
+	{myName}: A hidden rope, you say?
 
 @choice " I accept your challenge." goto:.SearchRope
-@choice "No. I won't play your games." goto:.NotSearchRoll
+@choice "No. I won't play your games." goto:.NotSearchRope
 @stop
 
-# SearchRope
-{myName}:...
-@hidePrinter  wait:false
-@showUI MiniGameUI
-@stop
+# TraiderOut
+	{myName}: Intresting....
+	@goto Map
 
 # RopeTaken
-@toast "Quest Update: Find a rope: Bring the rope to Skofild"
-Traid: OK!
+	@set WithRope=true
+	@set TraiderFirstMeet=false
+	@toast "Quest Update: Break: Bring the rope to Skofild"
+	Traid: OK!
+	@goto Map
 
-@stop
-@stop
+# SearchRope
+	{myName}:...
+	@hidePrinter  wait:false
+	@showUI MiniGameUI
+	@stop
+
+# TraiderHappy
+	@char Traid.Default
+	Traid.Default: Thank you wery much for your help. You can take all that you want!
+	@goto Map
+
+# TraiderAngry
+	Traid.Default: Let's hope his plan doesn't come back to haunt us.
+	{myName}: We'll see how far he gets without our help.
+	@goto Map
+
+# NotSearchRope
+	Traid: Sorry, I'll be here if you need me.
+	@goto Map
+
+@goto Map

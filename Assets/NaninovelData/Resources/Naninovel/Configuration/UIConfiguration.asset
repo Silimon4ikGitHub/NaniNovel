@@ -21,5 +21,13 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   OverrideObjectsLayer: 1
   ObjectsLayer: 5
-  FontOptions: []
-  DefaultFont: 
+  FontOptions:
+  - FontName: English
+    Font: {fileID: 12800000, guid: db1c041975bd160499e0b233c7b95e38, type: 3}
+    TMPFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    ApplyOnLocale: en-GB
+  - FontName: Ukraine
+    Font: {fileID: 12800000, guid: 9dc239134a61316449a91f7e2c95d20e, type: 3}
+    TMPFont: {fileID: 11400000, guid: e54cca7a70953eb44bd8dbaa00d0bf4c, type: 2}
+    ApplyOnLocale: uk-UA
+  DefaultFont: English

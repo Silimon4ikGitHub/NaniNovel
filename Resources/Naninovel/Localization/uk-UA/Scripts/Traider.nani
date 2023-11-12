@@ -1,0 +1,52 @@
+; English (United Kingdom) <en-GB> to Ukrainian (Ukraine) <uk-UA> localization document for `Traider` naninovel script
+
+# 7dd35d90
+; 	@toast "Quest Update: Break: Buy a rope"
+
+# b5b9b9c7
+; 	Traid.Default: Greetings, kind sir! How might I be of service to you on this fine day?
+
+# 76525b55
+; 	{myName}: Good day to you, good trader! I am in need of a sturdy rope for a task.
+
+# c2b14ad2
+; 	Traid: A rope, you say? It so happens that among my array of wares, there lies a sturdy coil of rope. However, it isn't for sale, but I'll make you an offer.
+
+# ff737e4a
+; 	{myName}: An offer? I'm intrigued. What might it be?
+
+# f7759e1e
+; 	Traid: If you can seek out the hidden rope amongst my goods, you're welcome to have it without any cost. Consider it a bit of fun, and a challenge, if you will.
+
+# 30907196
+; 	{myName}: A hidden rope, you say?
+
+# eedf0a24
+; @choice " I accept your challenge." goto:.SearchRope
+
+# 1f62989d
+; @choice "No. I won't play your games." goto:.NotSearchRope
+
+# 4755f09d
+; 	{myName}: Intresting....
+
+# b08fdfe4
+; 	@toast "Quest Update: Break: Bring the rope to Skofild"
+
+# 1e017dd6
+; 	Traid: OK!
+
+# fd855316
+; 	{myName}:...
+
+# e821b063
+; 	Traid.Default: Thank you wery much for your help. You can take all that you want!
+
+# d78a4ab1
+; 	Traid.Default: Let's hope his plan doesn't come back to haunt us.
+
+# d056d49a
+; 	{myName}: We'll see how far he gets without our help.
+
+# 2d091f53
+; 	Traid: Sorry, I'll be here if you need me.

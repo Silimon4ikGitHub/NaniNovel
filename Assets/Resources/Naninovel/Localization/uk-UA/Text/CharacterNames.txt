@@ -1,0 +1,8 @@
+; English (United Kingdom) <en-GB> to Ukrainian (Ukraine) <uk-UA> localization document for `CharacterNames` managed text document
+
+Guard1: Guard1
+Guard2: Guard2
+Keyra: Keyra
+Skofild: Skofild
+Traid: Traid
+Traider: Traider

@@ -4,6 +4,8 @@
 @goto .EmptyLocation if:"!WithRope || !RopeQuest"
 
 # ReadyToBreak
+	@toast "Quest Update: Break: Prepeare for break"
+	@set CurrentQuestLog="Prepeare for break"
 	Skofild.Default: Ok, all is ready.
 	Skofild.Default: What da...
 	Traid.Default: Hey!
@@ -22,6 +24,8 @@
 
 # RopeToSkofild
 	@toast "Quest Completed: Break"
+	@set CurrentQuestLog=" "
+	@set QuestName=" "
 	@set WithRope=false
 	@set SkofildLeave=true
 	@set RopeQuest=false
@@ -32,6 +36,8 @@
 
 # RopeToTraider
 	@toast "Quest Completed: Break"
+	@set CurrentQuestLog=" "
+	@set QuestName=" "
 	@set WithRope=false
 	@set RopeQuest=false
 	@set SkofildLeave=false
@@ -44,6 +50,8 @@
 
 # RopeOwn
 	@toast "Quest Completed: Break"
+	@set CurrentQuestLog=" "
+	@set QuestName=" "
 	@set WithRope=true
 	@set RopeQuest=false
 	@set SkofildLeave=false

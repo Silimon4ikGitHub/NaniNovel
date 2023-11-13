@@ -156,7 +156,7 @@ MonoBehaviour:
       guid: f5aae572225ee1b4c96d1a17fc5cb073
     - name: TitleUI
       pathPrefix: UI
-      guid: 4b121aa1be1b7e04480b452c595ff17a
+      guid: c4dead7d41c274c41b438d90c75f80c9
     - name: VariableInputUI
       pathPrefix: UI
       guid: bb95f484e341dcd4391a572f22b7d067
@@ -169,6 +169,9 @@ MonoBehaviour:
     - name: MapUI
       pathPrefix: UI
       guid: c9740c82593e86347bcf586e3cce74c9
+    - name: MapButton
+      pathPrefix: UI
+      guid: 022bfc67a503573438da1ee0f246a0d9
     - name: RopeUI
       pathPrefix: UI
       guid: 70de7f1a70a39194bbda37a480012447
@@ -178,9 +181,12 @@ MonoBehaviour:
     - name: MiniGameUI
       pathPrefix: UI
       guid: 1c42c20e94e135d4884a0b4a43b75e5d
-    - name: MapButton
+    - name: QuestLogUI
       pathPrefix: UI
-      guid: 022bfc67a503573438da1ee0f246a0d9
+      guid: bfed22ca74bfe6d498f6b44c85693359
+    - name: QuestLogButton
+      pathPrefix: UI
+      guid: a98483a6bf0ee354d90ec9835641769c
   - Id: Backgrounds/3f643e33-642f-40e5-97a4-5d8381b76c32
     Resources:
     - name: Tavern
@@ -209,6 +215,9 @@ MonoBehaviour:
     - name: Bar
       pathPrefix: Scripts
       guid: b959b70d79514f04e8611324e54535eb
+    - name: test
+      pathPrefix: Scripts
+      guid: aeba3de4789166244a057a882db5cb0e
   - Id: Characters/8cc6249b-756a-4784-ab32-4149acf1b27c
     Resources:
     - name: Default
@@ -249,3 +258,8 @@ MonoBehaviour:
     - name: Tooltip
       pathPrefix: TextPrinters
       guid: 0d0e1ea3514ebdc4d8e1dd6d6926684f
+  - Id: TextPrinters/d275e87c-4f07-4dc3-9885-3f33d5bf839e
+    Resources:
+    - name: QuestLog
+      pathPrefix: TextPrinters
+      guid: 811df6ff95d580040a7429319d3f53b4

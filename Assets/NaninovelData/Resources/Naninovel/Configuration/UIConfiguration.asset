@@ -23,7 +23,7 @@ MonoBehaviour:
   ObjectsLayer: 5
   FontOptions:
   - FontName: English
-    Font: {fileID: 12800000, guid: db1c041975bd160499e0b233c7b95e38, type: 3}
+    Font: {fileID: 12800000, guid: 883930897367f53469ae1b387205528a, type: 3}
     TMPFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     ApplyOnLocale: en-GB
   - FontName: Ukraine

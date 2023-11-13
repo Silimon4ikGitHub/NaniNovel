@@ -12,7 +12,8 @@
 	@input myName summary:"Enter Your Name."
 	@stop
 	{myName}: You can call me {myName}
-	Skofild.Default: (Speaking in a hushed tone) OK {myName}, these guards are starting to eye us suspiciously. We should make ourselves scarce before they become too curious.
+	Skofild.Default: (Speaking in a hushed tone) OK {myName}, these guards are starting to eye us suspiciously. We should make ourselves 
+scarce before they become too curious.
 	@hide Skofild
 	@char Guard1.Default pos:20
 	Guard1: ...
@@ -28,10 +29,11 @@
 	{myName}: And how do you suggest we navigate the foul sewers?
 	Skofild.Default: We'll need a stout rope to avoid being caught in the mire. Can you buy one from the market stall in the room opposit?
 	{myName}: Aye, I'll do it. But be quick and don't arouse their suspicions.
-	@toast "New Quest: Break"
+	@toast "New Quest: Break: Find a rope"
 	@set TraiderAvalable=true
 	@set RopeQuest=true
-	@set FirstMeet=false
+	@set QuestName="Break"
+	@set CurrentQuestLog="Find a rope"
 	@set SkofildFirstMeet=false
 	@goto Map
 
@@ -39,6 +41,7 @@
 	Skofild.Default: Nice! Lets Get out of here!
 	@set SeawerAvalable=true
 	@toast "Quest Update: Break: Go to seawer"
+	@set CurrentQuestLog="Go to seawer"
 	@goto Map
 # ComeWOutRope
 	Skofild.Default: What ar you doing we need a rope

@@ -33,3 +33,7 @@ MonoBehaviour:
     value: false
   - name: SkofildLeave
     value: false
+  - name: QuestName
+    value: '" "'
+  - name: CurrentQuestLog
+    value: '" "'

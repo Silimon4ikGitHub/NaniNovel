@@ -340,12 +340,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@print "In the heart of the bustling marketplace, amidst the commotion
-    and vibrant colors of the stalls, stands a seasoned trader, known far and wide
-    for his art of bartering and the variety of goods he offers." author:Traider
-    if:{arg} printer:Tooltip speed:2
+  scriptText: '@print "Lunenburg is the best surviving example of a planned British
+    colonial settlement in North America. Established in 1753, it has retained its
+    original layout and overall appearance, based on a rectangular grid pattern drawn
+    up in the home country." author:"Old Town" if:{arg} printer:Tooltip speed:2
 
-    @hidePrinter Tooltip if:!{arg}'
+    @hidePrinter
+    Tooltip if:!{arg}'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &2066784810604857778
@@ -1368,7 +1369,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &28027152271297675
 MonoBehaviour:

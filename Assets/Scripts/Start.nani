@@ -2,5 +2,6 @@
 @hideUI MapUI
 @back Tavern
 @showUI MapButton
+@showUI QuestLogButton
 @sfx Traktir volume:0.01
 @goto Bar

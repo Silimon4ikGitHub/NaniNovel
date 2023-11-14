@@ -419,10 +419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@print "What do we do?" author:{myName} if:{arg} printer:Tooltip speed:2
-
-    @hidePrinter
-    Tooltip if:!{arg}'
+  scriptText: 
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &4802580021516794660

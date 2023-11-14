@@ -12,4 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e98aa4b58b11e9d4ca9dd8a4bf7bb71d, type: 3}
   m_Name: ScriptGraphState
   m_EditorClassIdentifier: 
-  NodesState: []
+  NodesState:
+  - scriptName: Start
+    position:
+      serializedVersion: 2
+      x: 815.2
+      y: 0
+      width: 95.20001
+      height: 100.8
+  - scriptName: Map
+    position:
+      serializedVersion: 2
+      x: 536
+      y: 0
+      width: 72
+      height: 76.8
+  - scriptName: Traider
+    position:
+      serializedVersion: 2
+      x: 100
+      y: 0
+      width: 200
+      height: 556.8
+  - scriptName: Seawer
+    position:
+      serializedVersion: 2
+      x: 320
+      y: 0
+      width: 196
+      height: 388.8
+  - scriptName: Bar
+    position:
+      serializedVersion: 2
+      x: 628
+      y: 0
+      width: 167.20001
+      height: 436.8
+  - scriptName: test
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 69.6
+      height: 76.8
